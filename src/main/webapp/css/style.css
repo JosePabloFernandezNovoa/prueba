@@ -1,0 +1,86 @@
+#principal{
+    margin:auto; 
+    margin-top: 50px; 
+    width: 1000px; 
+    height: 500px; 
+}
+
+#titulo{
+    width: 1000px; 
+    height: 100px;
+}
+
+#indice{
+    font-family: 'Architects Daughter', cursive;
+    color: black;
+}
+
+#derecha{
+}
+
+#izquierda{
+    width: 50%; 
+    height: 400px; 
+    float: left;  
+}
+
+#subindice{
+    font-family: 'Comfortaa', cursive;
+    color: black;
+}
+
+#mundo{
+   text-decoration-line: underline;
+    font-family: 'Comfortaa', cursive;
+    margin: 60px;
+    text-align: center;
+    border: red 5px double;
+    background: orangered;
+}
+
+#cabecera{
+  padding: 15px;
+  border-color: navy;
+  border-width: 7px;
+  border-style: solid;
+  background:radial-gradient(skyblue, royalblue);
+  font-family: 'sans', cursive;
+}
+
+#tituloCab{
+    text-align: center;
+    padding: 3px 10px;
+    border: PowderBlue 5px solid;
+    border-radius: 20px;
+    margin-left: 250px;
+    margin-right: 250px;
+    background:linear-gradient(30deg, crimson,sienna, royalblue, indianred, purple);
+    font-family: 'Comfortaa', cursive;
+}
+#contexto{
+    padding:50px;
+    background: yellowgreen;
+    background: -webkit-linear-gradient(to right, yellowgreen, seagreen);
+    background: linear-gradient(to right, yellowgreen, seagreen);
+    font-family: 'Comfortaa', cursive;
+}
+
+#Formulario{
+    padding:50px;
+    background: #FF1515;
+    background: -webkit-linear-gradient(to right, #FF1515, #FF8A15);
+    background: linear-gradient(to right, #FF1515, #FF8A15);
+    font-family: 'Comfortaa', cursive;
+}
+
+#tituloForm{
+    text-align: center;
+}
+
+#ServletForm{
+    padding:50px;
+    background: #FFE615;
+    background: -webkit-linear-gradient(to right, #FFE615, #6E6623);
+    background: linear-gradient(to right, #FFE615, #6E6623);
+    font-family: 'Comfortaa', cursive;
+}

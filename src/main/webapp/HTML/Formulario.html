@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Formulario</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../css/style.css">
+    </head>
+    
+    <body id="Formulario">
+        <h2 id="tituloForm">Formulario</h2>
+        <form action="../ServletFormulario" method="post">
+            <p>Nombre: <input type="text" name="nombre" size="40"></p>
+            <p>Edad: <input type="number" name="nacido" tabindex="1" min="0"></p>
+            <p>Correo Electrónico: <input type="email" name="correo" min="500"></p>
+            <p>Sexo: 
+                <input type="radio" name="Sexo" value="h"> Hombre 
+                <input type="radio" name="Sexo" value="m"> Mujer
+                <input type="radio" name="Sexo" value="m"> Otro
+            </p>
+            <p>
+
+                <select name="Aficiones" size="4" multiple>
+
+                        <option>Música</option>
+                        <option>Deporte</option>
+                        <option>Animales</option>
+                        <option>Leer</option>
+                </select>
+            </p>
+            
+            Tus Comentarios:<br>
+            <textarea name="comentarios" rows="5" cols="60"></textarea>
+            
+            <p>
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Borrar">
+            </p>
+        </form>
+        <a href="../index.html">Volver</a>
+    </body>
+</html>
